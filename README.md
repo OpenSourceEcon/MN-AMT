@@ -1,12 +1,12 @@
-# Data and code for "How does the Minnesota Alternative Minimum Tax Affect Household Filers?"
-This repository contains the data and code for the analyses in the *Research in Focus* article by [Richard W. Evans](https://sites.google.com/site/rickecon) ([@rickecon](https://github.com/rickecon)) and Mitchell Pound ([@mitchellpound](https://github.com/mitchellpound)) entitled "How does the Minnesota Alternative Minimum Tax Affect Household Filers?".
+# Data and code for "The Effect of the Minnesota Alternative Minimum Tax on Household Filers"
+This repository contains the data and code for the analyses in the article by [Richard W. Evans](https://sites.google.com/site/rickecon) ([@rickecon](https://github.com/rickecon)) and Mitchell Pound ([@mitchellpound](https://github.com/mitchellpound)) entitled "The Effect of the Minnesota Alternative Minimum Tax on Household Filers".
 
 ## How to run the code from these analyses in the cloud in your browser
 We have created a [Google Colab notebook](https://colab.research.google.com/drive/1TYFiOsyHzkdmXEn5ygFDcZioq2GqAT7C?usp=sharing) with code almost exactly the same as th code in the Jupyter Notebook [`MN_AMT.ipynb`](MN_AMT.ipynb) decribed in the next section. The [Google Colab notebook](https://colab.research.google.com/drive/1TYFiOsyHzkdmXEn5ygFDcZioq2GqAT7C?usp=sharing) has the advantage of using a distribution of Python and corresponding packages that run in the cloud on remote servers instead of on your local machine. This allows you to use the notebook from any kind of device with a browser. You can execute th code, see the results, and save output to a temporary cloud folder from which you can download anything you want to keep.
 
 ## How to run the Jupyter Notebook on your machine
 This repository contains a Jupyter Notebook [`MN_AMT.ipynb`](MN_AMT.ipynb) that can be run locally on your own machine to replicate the analyses in the paper. You can also modify this notebook to use for other analyses you might want to experiment with. To run this notebook locally on your machine, do the following steps:
-* Fork and clone (or download) the https://github.com/TheCGO/MN-AMT repository
+* Fork and clone (or download) the https://github.com/OpenSourceEcon/MN-AMT repository
 * In your computer's terminal, navigate to the directory of the `MN-AMT` repository on your local machine.
 * Create the conda environment `mn-amt-dev` by typing the following command: `conda env create -f environment.yml`
 * Activate the `mn-amt-dev` conda environment by typing the following command: `conda activate mn-amt-dev`
